@@ -1,56 +1,132 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="phone.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body>
+#cont{
+    width: 400px;
+    height: 600px;
+    background-color: black;
+    margin-left: 400px;
+    display: flex;
+    border-radius: 4%;
+ 
+    
+}
+.around{
+    width: 380px;
+    height: 580px;
+    background-color:RGB(111,85,86);
+    border-radius: 3px;
+    margin-left: 10px;
+    margin-top: 10px;
+    display:flex;
+    
+    
 
-   <div id="cont">
-      
-     
-      
-      <div class="around">
-        <div id="r1"><input type="radio"></div>
-          <div id="b1">
-          <input type="button">
-          <div id="b2">
-          
-          <input type="button">
-          
-          
-           </div>
-          
-          </div>
-          <div class="middle">
-            <div id="fuser"> 
-              <u style="color: white;"><i class="fa fa-user fa-lg"style="color:black;"></i>&ensp;Username </u></div>
-             <div id="fpas"> 
+}
+.middle { 
+    background-color:RGB(143,110,111);
+    width: 329px;
+    height: 480px;
+    margin-top: 40px;
+   margin-left:-195px;
+   display: flex;
+   border-radius: 3px;
 
-              <br><u style="color:white;"><i class="fa fa-lock"style="color:black;"></i>&emsp;Password</u><br></div><br>
-              <div id="input">   
-                <input type="submit"value="Log in"style="width:250px;height:20px;border-radius:5px;background-color:RGB(205,195,194);"><br><br></div>
-                <div id="in">
-                <input type="submit"value="sign up"style="width:250px;height:20px;border-radius:5px;"><br><br>
-                <div id="h">Forgot your password ?</div>
-              </div><br><br><br>
-              <div id="google"> 
-               <i class="fa fa-google"style="background-color:none; color: black; font-size:20px;"></i>&emsp;Login with google
-                 </div>
-              <div id="fb"> 
-                 <box><i class="fa fa-facebook"style="background-color:black; color: blue; border-radius:500px; font-size:20px;"></i>&emsp;Login with facebook
-                    </div></box>
-                    <div id="h2"> PatsiTech LTD</div>
-                    <div id="imeg"> 
-                      <img src="photo/IMG-20220518-WA0025.jpg" style="height: 85px;width:180px;"/> 
-                       </div>
-          </div>
-              
-              
-          </div>
-</body>
-</html>
+}
+#b1 input[type=button]{
+    margin-left: 150px;
+    width: 50px;
+    height:17px;
+    margin-top: 3px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+#b2 input[type=button]{
+margin-top:530px;
+margin-left: 150px;
+width: 45px;
+height: 20px;
+border-radius: 10px;
+background-color: black;
+border-color: white;
+}
+#r input[type=radio]{
+background-color: rgb(119, 101, 92);
+margin-left: 50px;
+width: 20px;
+height: 20px;
+border-radius: 100px;
+}
+#fuser{
+margin-left:20px;
+margin-top:100px;
+font-size: 25px;
+font-family: verdana;
+border-top:none;
+border-left: none;
+border-right: none;
+}
+
+#fpas{
+margin-left:-160px;
+margin-top:120px;
+font-size: 25px;
+font-family: Verdana;
+
+}
+#input{
+    margin-top: 270px;
+    margin-left: -160px;
+    width: 100px;
+    height: 50pxpx;
+    border-radius: 10px;
+}
+#in{
+    margin-top: 200px; 
+    margin-left: -100px; 
+    width: 300px;
+    border-radius: 10px;
+    
+}
+#google{
+    margin-top: 410px;
+    margin-left: -300px;
+    color: aliceblue;
+    font-family: verdana;
+    background-color:RGB(70,104,209);
+    height: 20px;
+
+    
+}
+
+#fb{
+    margin-top: 450px;
+    margin-left: -178px;
+    
+    display: verdana;
+    color:white;
+    
+    font-family: verdana;
+    background-color:RGB(52,81,158);
+    height: 20px;
+
+}
+#h{
+    margin-top: 110px;
+    font-family: verdana;
+    color: white ;
+}
+
+#imeg{
+    margin-left:-300px;
+    margin-top:5px;
+    height: 80px;
+    
+
+    
+    
+    
+}
+#h2{
+color:white;
+font-family: verdana;
+margin-top: 10px;
+}
